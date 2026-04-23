@@ -12,7 +12,7 @@ import threading
 # ==========================================
 API_TOKEN = os.environ.get('BOT_TOKEN')
 ADMIN_ID = int(os.environ.get('ADMIN_ID', 0))
-CHANNEL_ID = "@errorkidk_05" 
+CHANNEL_ID = "@errorkid_05" 
 SUPPORT_BOT = "https://t.me/errorkidk_bot"
 
 bot = telebot.TeleBot(API_TOKEN)
